@@ -30,7 +30,7 @@ a {
 }
 .c1, .c2, .c3, .c4, .c5{
     display: inline-block;
-    background-color: antiquewhite;
+    background-color: rgb(238, 238, 238);
     max-width: fit-content;
     margin: 5px;
     padding: 15px;
@@ -78,4 +78,17 @@ a {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
+}
+.enroll {
+    padding: 12px 22px;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 5px;
+    border: 2px solid #0aa5ff;
+    transition: 0.2s;
+}
+
+.enroll:hover {
+    background-color: #0aa5ff;
+    color: white;
 }
