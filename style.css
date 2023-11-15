@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.date {
+    background-color: rgb(34, 159, 20);
+    width: max-content;
+    border: 1px solid white;
+    border-radius:4px;
+
+}
+.c1, .c2, .c3, .c4, .c5{
+    display: inline-block;
+    background-color: antiquewhite;
+    max-width: fit-content;
+    margin: 5px;
+    padding: 15px;
+    color: black;
+    height: 12rem;
+    border-radius: 10px;
+    
+}
+
+.course-content {
+    justify-content: start;
+    font-family: Playfair Display;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.508);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.808);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    color: black;
+
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 15px 20px;
+}
+.nav ul li:hover {
+    color: blue;
+    background-color: yellow;
+}
